@@ -30,7 +30,6 @@ class TaskHi(TaskBase):
     def __init__(self, bot: commands.Bot):
         super().__init__(bot)
         self.channel_id = 1199280732439326750
-        print(self.hi)
 
     @tasks.loop(seconds=3)  # 定義要執行的循環函式
     async def hi(self):
