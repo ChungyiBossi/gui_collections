@@ -1,3 +1,6 @@
 *__pycache__
 *.DS_Store
 */KEYS.py
+
+gui_collections.code-workspace
+gui_collections_env/
